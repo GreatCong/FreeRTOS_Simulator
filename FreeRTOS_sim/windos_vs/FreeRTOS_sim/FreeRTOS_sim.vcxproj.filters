@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FreeRTOS">
+      <UniqueIdentifier>{aed7a333-37d3-4f2f-b826-32e8601dbc93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{a14541b0-ed81-4715-93fd-8580cc09f33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\include">
+      <UniqueIdentifier>{b930f856-1ca8-4936-b0fe-7656f93add62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\portable">
+      <UniqueIdentifier>{7fb9f8cc-3f22-4707-90c8-f6835bf7aeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS\portable\mem">
+      <UniqueIdentifier>{cc401c83-89b6-4cd4-b933-24ea63170207}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demo\AbortDelay.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\BlockQ.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\blocktim.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\countsem.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\death.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\dynamic.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\EventGroupsDemo.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\flop.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\GenQTest.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\integer.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\IntSemTest.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\PollQ.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\QPeek.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\QueueOverwrite.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\QueueSet.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\QueueSetPolling.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\recmutex.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\semtest.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\TaskNotify.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demo\TimerDemo.c">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\portable\MSVC-MingW\port.c">
+      <Filter>FreeRTOS\portable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\portable\MemMang\heap_3.c">
+      <Filter>FreeRTOS\portable\mem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\croutine.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\event_groups.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\list.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\queue.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tasks.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\timers.c">
+      <Filter>FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Project\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Project\win_runTime\Run-time-stats-utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\include\croutine.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\deprecated_definitions.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\event_groups.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\FreeRTOS.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\list.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\mpu_prototypes.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\mpu_wrappers.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\portable.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\projdefs.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\queue.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\semphr.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\StackMacros.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\task.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\include\timers.h">
+      <Filter>FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\portable\MSVC-MingW\portmacro.h">
+      <Filter>FreeRTOS\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Project\FreeRTOSConfig.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
